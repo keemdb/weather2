@@ -1,0 +1,29 @@
+@import 'base.css';
+
+.wrap {
+	width: 100%;
+	max-width: 482px;
+	height: 100%;
+	margin: auto;
+	border-bottom: 1px solid #999;
+}
+.tabs {
+	border-bottom: 1px solid #999;
+	font-size: 0.75rem;
+}
+.tabs > li {
+	padding: 0.5rem;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.conts {
+	width: 100%;
+	position: absolute;
+}
+.daily {
+	display: block;
+}
+.weekly {
+	display: none;
+}
